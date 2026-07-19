@@ -1,3 +1,4 @@
+
 # Projeto de Precificação de Imóveis em King County
 
 ## Visão Geral do Projeto
@@ -48,9 +49,3 @@ A primeira versão do modelo alcançou um R² de 0.77, explicando 77% da variabi
 3.  Execute o notebook `[Nome do seu Notebook.ipynb]` sequencialmente.
 
 Para fins de avaliação, este projeto contém um vídeo explicativo que aborda os pontos solicitados na Seção 5.4 do roteiro do projeto.
-""".format(mae_test=mae_test, rmse_test=rmse_test, r2_test=r2_test)
-
-with open('README.md', 'w') as f:
-    f.write(readme_content)
-
-print("Arquivo 'README.md' criado com sucesso na raiz do projeto.")
